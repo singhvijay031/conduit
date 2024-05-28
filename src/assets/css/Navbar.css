@@ -1,0 +1,40 @@
+
+.nav {
+    margin-left: 8%;
+    margin-right: 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  .logo-font{
+    font-family: "Titillium Web", sans-serif;
+  }
+  .nav-title {
+    color: #5cb85c;
+    font-size: 24px;
+  }
+  
+  .nav-items {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-list {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-item {
+    margin: 0 15px;
+    color: gray;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .nav-item:hover {
+    color: black;
+  }
+  

@@ -1,0 +1,155 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
+
+.feed-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.feed {
+  width: 70%;
+}
+.global{
+  color: green;
+  margin-bottom: 5px;
+  border-bottom: green 2px solid;
+}
+.sidebar {
+  width: 25%;
+  height: 25%;
+  margin-left: 20px;
+  background-color: #ebeff1;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+.sidebar p {
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+}
+.sidebar span:hover{
+  background-color: rgb(88, 87, 87);
+
+}
+
+
+.article {
+  background-color: #fff;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 5px;
+  border-top: 1px solid #F3F3F3;
+}
+
+.article-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.author-image {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.author-info {
+  flex-grow: 1;
+}
+
+.author-name {
+  color: green;
+  cursor: pointer;
+
+}
+.author-name:hover{
+  text-decoration: underline;
+}
+
+.article-date {
+  font-size: 0.8em;
+  color: #888;
+}
+
+.article-favorites {
+  display: flex;
+  align-items: center;
+}
+
+.favorite-button {
+  background: none;
+  width: 65px;
+  height: 25px;
+  border: 1px solid green;
+  color: green;
+  font-size: 12px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+
+}
+.favorite-button:hover{
+  color: white;
+}
+
+.article-content h3 {
+  margin-top: 10px;
+}
+
+.article-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.read-more {
+  color: gray;
+  text-decoration: none;
+}
+
+ .tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.article-tags span{
+  background-color: white;
+  color: black;
+  border: 1px solid gray;
+  border-radius: 10px;
+  display: inline-block;
+  padding: 5px 10px;
+  margin-right: 10px;
+  cursor: pointer;
+  
+}
+
+
+.tag {
+  background-color: #818a91;
+  color: #fff;
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 5px 10px;
+  font-size: 0.8em;
+}
+
